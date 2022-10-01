@@ -7,12 +7,12 @@
 <body>
     <div class="container">
         <div class="col-4">
-            <p>All Services</p>
-            <a href="../siteadmin/services/create/new" class="button">Add Service</a>
+            <p>All technologies</p>
+            <a href="{{url('siteadmin/technologies/create/new')}}" class="button">Add technology</a>
         </div>            
-        @forelse($services as $service)
+        @forelse($technologies as $technology)
             <ol>
-                <li class="heading-list"><a href="../siteadmin/services/{{ $service->id }}" class="posts-heading">{{ ucfirst($service->banner_heading) }}</a></li>
+                <li class="heading-list"><a href="{{url('../siteadmin/technologies/' . $technology->id)}}" class="posts-heading">{{ ucfirst($technology->banner_heading) }}</a></li>
             </ol>
         @empty
             <p class="text-warning">No blog Posts available</p>

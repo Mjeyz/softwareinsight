@@ -56,10 +56,8 @@ Route::middleware([CheckStatus::class])->group(function () {
     Route::post('siteadmin/technologies/{technology}/edit', [TechnologiesController::class, 'update']);  // method to post edit data from view form
 });
 
-// services section
+// Authentication section
 Route::get('siteadmin/dashboard', [AuthController::class, 'dashboard']); 
 Route::get('siteadmin/login', [AuthController::class, 'index'])->name('login');
 Route::post('siteadmin/custom-login', [AuthController::class, 'customLogin'])->name('login.custom'); 
-Route::get('siteadmin/registration', [AuthController::class, 'registration'])->name('register-user');
-Route::post('siteadmin/custom-registration', [AuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('siteadmin/signout', [AuthController::class, 'signOut'])->name('signout');

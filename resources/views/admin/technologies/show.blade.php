@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <a href="../../siteadmin/services" class="button">Go back</a>
+            <a href="{{url('siteadmin/services')}}" class="button">Go back</a>
             <h1 class="display-one">{{ ucfirst($service->banner_heading) }}</h1>
             <p>{!! $service->banner_paragraph !!}</p> 
             <hr>
