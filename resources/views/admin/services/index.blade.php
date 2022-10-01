@@ -12,7 +12,7 @@
         </div>            
         @forelse($services as $service)
             <ol>
-                <li class="heading-list"><a href="../siteadmin/services/{{ $service->id }}" class="posts-heading">{{ ucfirst($service->banner_heading) }}</a></li>
+                <li class="heading-list"><a href="../siteadmin/services/{{ $service->slug }}" class="posts-heading">{{ ucfirst($service->banner_heading) }}</a></li>
             </ol>
         @empty
             <p class="text-warning">No blog Posts available</p>
