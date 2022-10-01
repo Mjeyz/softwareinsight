@@ -67,7 +67,7 @@
                                     <button class="theme-btn-one ripple-btn w-100" type="submit">Send Message</button></div>
                                 </div>
                         </form>
-                        <img src="images/shape/shape_12.svg" alt="" class="shapes shape-one">
+                        <img src="{{ url('images/shape/shape_12.svg') }}" alt="" class="shapes shape-one">
                     </div> <!-- /.form-style-one -->
                 </div>
             </div>

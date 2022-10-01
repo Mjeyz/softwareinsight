@@ -27,14 +27,14 @@
 						<p class="hero-sub-heading text-lg">We take pride in our work and are always excited to see the idea that hits home. We love to help make products and apps real. </p>
 						<a href="contactV3.html" class="theme-btn-eleven ripple-btn">Let’s work togather</a>
 						<div class="row mt-4">
-							<div class="col-md-3"><a href="#"><img src="./images/reviews/clutch-01.png" alt=""></a></div>
-							<div class="col-md-3"><img src="./images/reviews/techimply.svg" alt=""></a></div>
-							<div class="col-md-3"><img src="./images/reviews//w_s_top_web_dev_black_text.svg" alt=""></a></div>
+							<div class="col-md-3"><a href="#"><img src="{{url('./images/reviews/clutch-01.png') }}" alt=""></a></div>
+							<div class="col-md-3"><img src="{{url('./images/reviews/techimply.svg') }}" alt=""></a></div>
+							<div class="col-md-3"><img src="{{url('./images/reviews//w_s_top_web_dev_black_text.svg') }}" alt=""></a></div>
 						</div>
 					</div> <!-- /.text-wrapper -->
 
 					<div class="img-wrapper position-relative">
-						<img src="images/media/img_69.png" alt="">
+						<img src="{{url('images/media/img_69.png') }}" alt="">
 					</div>
 				</div> <!-- /.banner-content -->
 			</div>
@@ -42,7 +42,7 @@
 
 
 			
-			<div class="vcamp-feature-section-three mt-200 lg-mt-150 md-mt-120">
+			<div class="tsi-feature-section-three mt-200 lg-mt-150 md-mt-120">
 				<div class="container">
 					<div class="row mb-75 lg-mb-50 md-mb-20">
 						<div class="col-xl-6 col-lg-5" data-aos="fade-right">
@@ -57,13 +57,13 @@
 					<div class="partner-slider-one mt-150 md-mt-80">
 				</div> <!-- /.partner-slider-one -->
 				</div>
-			</div> <!-- /.vcamp-feature-section-three -->
+			</div> <!-- /.tsi-feature-section-three -->
 			
 			@include('layouts.components.clients')
 
-			<div class="vcamp-feature-section-one box-layout mt-75">
+			<div class="tsi-feature-section-one box-layout mt-75">
 				<div class="bg-wrapper">
-					<img src="images/shape/shape_01.svg" alt="" class="shapes shape-one">
+					<img src="{{url('images/shape/shape_01.svg') }}" alt="" class="shapes shape-one">
 					<div class="container">
 						<div class="row">
 							<div class="col-xxl-4 col-lg-5" data-aos="fade-right">
@@ -79,34 +79,34 @@
 								<div class="row">
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/product-design.svg" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/product-design.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
 											<h4 class="title">Product Design</h4>
 											<p>We create delightful UX for web, mobile, and desktop products that are simple to use and easy to navigate for your users.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="images/icon/icon_08.svg" alt="" class="tran3s"></a>
+											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/frontend.svg" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/frontend.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
 											<h4 class="title">Web Development</h4>
 											<p>We create beautiful, fast and secure web applications tailored exclusively for your business goals.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="images/icon/icon_08.svg" alt="" class="tran3s"></a>
+											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/web-mobile.svg" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/web-mobile.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
 											<h4 class="title">Mobile Apps Development</h4>
 											<p>We provide unique mobile applications with excellent UX that are well-designed, optimized, and support iOS and Android.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="images/icon/icon_08.svg" alt="" class="tran3s"></a>
+											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/strategy.svg" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/strategy.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
 											<h4 class="title">Strategy & Research</h4>
 											<p>we provide the latest digital transformation solutions and end-to-end business intelligence services to minimize risks and leverage opportunities ahead.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="images/icon/icon_08.svg" alt="" class="tran3s"></a>
+											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 								</div>
@@ -114,7 +114,7 @@
 						</div>
 					</div>
 				</div> <!-- /.bg-wrapper -->
-			</div> <!-- /.vcamp-feature-section-one -->
+			</div> <!-- /.tsi-feature-section-one -->
 
 
 			@include('layouts.components.counter')			
@@ -125,8 +125,8 @@
 				Vcamp Feature Section Four
 			============================================== 
 			-->
-			<div class="vcamp-feature-section-four mt-250 lg-mt-150 md-mt-120">
-				<img src="images/shape/shape_05.svg" alt="" class="shapes shape-one">
+			<div class="tsi-feature-section-four mt-250 lg-mt-150 md-mt-120">
+				<img src="{{url('images/shape/shape_05.svg') }}" alt="" class="shapes shape-one">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-xl-5 col-lg-6" data-aos="fade-right">
@@ -142,28 +142,28 @@
 							<div class="row gx-5">
 								<div class="col-sm-6" data-aos="fade-up">
 									<div class="card-style-four mb-130 lg-mb-70">
-										<div class="icon d-flex align-items-end"><img src="images/icon/icon_29.svg" alt="" class="tran3s"></div>
+										<div class="icon d-flex align-items-end"><img src="{{url('images/icon/icon_29.svg') }}" alt="" class="tran3s"></div>
 										<h4 class="title">High quality code</h4>
 										<p>We are the experts in developing websites and mobile applications. Our team of skilled developers creates high-quality custom applications.</p>
 									</div> <!-- /.card-style-four -->
 								</div>
 								<div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
 									<div class="card-style-four mb-130 lg-mb-70">
-										<div class="icon d-flex align-items-end"><img src="images/icon/icon_30.svg" alt="" class="tran3s"></div>
+										<div class="icon d-flex align-items-end"><img src="{{url('images/icon/icon_30.svg') }}" alt="" class="tran3s"></div>
 										<h4 class="title">Full stack team</h4>
 										<p>We are good in development of full stack apps. Our team is best full stack developers</p>
 									</div> <!-- /.card-style-four -->
 								</div>
 								<div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
 									<div class="card-style-four mb-130 lg-mb-70">
-										<div class="icon d-flex align-items-end"><img src="images/icon/icon_31.svg" alt="" class="tran3s"></div>
+										<div class="icon d-flex align-items-end"><img src="{{url('images/icon/icon_31.svg') }}" alt="" class="tran3s"></div>
 										<h4 class="title">Agile approach</h4>
 										<p>We use the Agile process to build incredible applications that are tailored to your company's needs.</p>
 									</div> <!-- /.card-style-four -->
 								</div>
 								<div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
 									<div class="card-style-four mb-130 lg-mb-70">
-										<div class="icon d-flex align-items-end"><img src="images/icon/icon_32.svg" alt="" class="tran3s"></div>
+										<div class="icon d-flex align-items-end"><img src="{{url('images/icon/icon_32.svg') }}" alt="" class="tran3s"></div>
 										<h4 class="title">Trustful Communication</h4>
 										<p>We believe in the power of our skills and talents; we are constantly strengthening and growing, to ensure that our clients receive the best possible service.</p>
 									</div> <!-- /.card-style-four -->
@@ -172,7 +172,7 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- /.vcamp-feature-section-four -->
+			</div> <!-- /.tsi-feature-section-four -->
 
 
 
@@ -201,7 +201,7 @@
 					<div class="feedback_slider_two">
 						<div class="item">
 							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
+								<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/icon_15.svg') }}" alt=""></div>
 								<blockquote>
 									The Software Insight team is extremely helpful and always available to help with any questions or problems you may have. They are a company that really cares about their customers, not just about selling their product.
 								</blockquote>
@@ -210,7 +210,7 @@
 						</div>
 						<div class="item">
 							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
+								<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/icon_15.svg') }}" alt=""></div>
 								<blockquote>
 									The Software Insight have been phenomenal to work with. They are very hands on and proactive with everything they do, which is very different from most other companies I’ve worked with in the past.
 								</blockquote>
@@ -219,7 +219,7 @@
 						</div>
 						<div class="item">
 							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
+								<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/icon_15.svg') }}" alt=""></div>
 								<blockquote>
 									It’s a pleasure working with @thesoftwareinsight. They’re always willing to help me out with my company’s software needs.
 								</blockquote>
@@ -228,7 +228,7 @@
 						</div>
 						<div class="item">
 							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
+								<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/icon_15.svg') }}" alt=""></div>
 								<blockquote>
 									Working with you guys has been a real pleasure. You are one of the few companies that really knows how to treat their customers. You will be seeing a lot more from us in the future.
 								</blockquote>

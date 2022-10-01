@@ -8,7 +8,7 @@
       	<meta property="og:url" content="https://thesoftwareinsight.com/">
       	<meta property="og:type" content="website">
       	<meta property="og:title" content="The Software Insight - Full-services software development company">
-		<meta name='og:image' content='images/assets/ogg.png'>
+		<meta name='og:image' content='{{ url('images/assets/ogg.png') }}'>
 		{{-- For IE --}}
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		{{-- For Resposive Device --}}
@@ -22,19 +22,19 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="#202020">
 		<title>The Software Insight - Full-services software development company</title>
 		{{-- Favicon --}}
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+		<link rel="icon" type="image/png" sizes="56x56" href="{{ url('images/fav-icon/icon.png') }}">
 		{{-- Main style sheet --}}
-		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}" media="all">
 		{{--  responsive style sheet  --}}
-		<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+		<link rel="stylesheet" type="text/css" href="{{ url('css/responsive.css') }}" media="all">
 		{{-- Font awesome stylesheet --}}
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 		{{--  Fix Internet Explorer ______________________________________ --}}
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
+			<script src="{{ url('vendor/html5shiv.js') }}"></script>
+			<script src="{{ url('vendor/respond.js') }}"></script>
 		<![endif]-->	
 	</head>
 

@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeContactUsController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Middleware\CheckStatus;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,10 +21,34 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/services-page', function (){
+    return view('services-page');
+});
 
+Route::get('/contact', function (){
+    return view('contact');
+});
 
 Route::post('/contact', [HomeContactUsController::class, 'contactPost'])->name('contact');
 Route::post('newsletter/store', [NewsletterController::class, 'store']);
-Route::get('/services', function (){
-    return view('services');
+
+Route::get('services/{service}', [ServicesController::class, 'PublicShow']);
+
+
+Route::middleware([CheckStatus::class])->group(function () {
+    Route::get('siteadmin/services', [ServicesController::class, 'index']); // method to view all services at once
+    Route::get('siteadmin/services/{service}', [ServicesController::class, 'show']); // method to show one service
+    Route::delete('siteadmin/services/{service}', [ServicesController::class, 'destroy']); // method to delete a service
+    Route::get('siteadmin/services/create/new', [ServicesController::class, 'create']); // method to call a view of create form
+    Route::post('siteadmin/services/create/new', [ServicesController::class, 'store']); // method to post a new service
+    Route::get('siteadmin/services/{service}/edit', [ServicesController::class, 'edit']); // method to show edit view to user
+    Route::post('siteadmin/services/{service}/edit', [ServicesController::class, 'update']);  // method to post edit data from view form
 });
+
+// services section
+Route::get('siteadmin/dashboard', [AuthController::class, 'dashboard']); 
+Route::get('siteadmin/login', [AuthController::class, 'index'])->name('login');
+Route::post('siteadmin/custom-login', [AuthController::class, 'customLogin'])->name('login.custom'); 
+Route::get('siteadmin/registration', [AuthController::class, 'registration'])->name('register-user');
+Route::post('siteadmin/custom-registration', [AuthController::class, 'customRegistration'])->name('register.custom'); 
+Route::get('siteadmin/signout', [AuthController::class, 'signOut'])->name('signout');

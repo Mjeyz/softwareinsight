@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: url('../images/curt-stump_plant-min.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-form{
+    width: 40%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.login-form button{
+    height: 40px;
+    width: 100%;
+    background: rgba(0, 128, 0, 0.8);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.login-form button:hover{
+    background: rgba(0, 128, 0, 1);
+    cursor: pointer;
+}
+.login-form textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.container{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+    padding: 30px 100px;
+}
+h1, p{
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+a.button {
+    text-decoration: none;
+    background: green;
+    padding: 5px 20px;
+    color: #fff;
+}
+a.posts-heading {
+    /* text-decoration: none; */
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+}
+li.heading-list{
+    list-style: none;
+    padding-top: 20px;
+}

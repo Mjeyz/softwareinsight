@@ -3,17 +3,17 @@
 				Footer
 			=====================================================
 			-->
-			<footer class="vcamp-footer-two pt-150 lg-pt-100 bg-white">
+			<footer class="tsi-footer-two pt-150 lg-pt-100 bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-3 col-lg-2 mb-40">
-							<div class="logo"><a href="/"><img src="images/logo/logo-black.svg" alt="" width="127"></a></div>
+							<div class="logo"><a href="/"><img src="{{url('images/logo/logo-black.svg') }}" alt="" width="127"></a></div>
 							<div class="reviews">
-								<div class="logo"><img src="" alt=""></div>
-								<div class="logo"><img src="" alt=""></div>
-								<div class="logo"><img src="" alt=""></div>
-								<div class="logo"><img src="" alt=""></div>
-								<div class="logo"><img src="" alt=""></div>
+								<div class="logo"><img src="{{('#')}}" alt=""></div>
+								<div class="logo"><img src="{{('#')}}" alt=""></div>
+								<div class="logo"><img src="{{('#')}}" alt=""></div>
+								<div class="logo"><img src="{{('#')}}" alt=""></div>
+								<div class="logo"><img src="{{('#')}}" alt=""></div>
 							</div>
 						</div>
 						<div class="col-lg-2 col-md-3 col-sm-6 mb-40">

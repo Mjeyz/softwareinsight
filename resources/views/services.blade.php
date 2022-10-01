@@ -9,7 +9,7 @@
 			============================================== 
 			-->
 			<div class="inside-hero-three bg-color">
-				<img src="images/shape/shape_35.svg" alt="" class="shapes shape-one">
+				<img src="{{url('images/shape/shape_35.svg') }}" alt="" class="shapes shape-one">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
@@ -22,7 +22,7 @@
 				</div>
 			</div> <!-- /.inside-hero-three -->
 			
-			<div class="vcamp-feature-section-three mt-200 lg-mt-80">
+			<div class="tsi-feature-section-three mt-200 lg-mt-80">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-4" data-aos="fade-right">
@@ -113,7 +113,7 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- /.vcamp-feature-section-three -->
+			</div> <!-- /.tsi-feature-section-three -->
 
 
             @include('layouts.components.clients')
@@ -132,7 +132,7 @@
                             <div class="row g-0">
                                 <div class="col-md-6">
                                     <div class="address-block-two d-flex border-right">
-                                        <img src="images/icon/icon_34.svg" alt="" class="icon">
+                                        <img src="{{url('images/icon/icon_34.svg') }}" alt="" class="icon">
                                         <div class="text-meta">
                                             <h4 class="title">Our Address</h4>
                                             <p>1012 Pebda Parkway, Mirpur 2 <br>Dhaka, Bangladesh</p>
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="address-block-two d-flex">
-                                        <img src="images/icon/icon_35.svg" alt="" class="icon">
+                                        <img src="{{url('images/icon/icon_35.svg') }}" alt="" class="icon">
                                         <div class="text-meta">
                                             <h4 class="title">Contact Info</h4>
                                             <p>Open a chat or give us call at <br><a href="#">310.841.5500</a></p>

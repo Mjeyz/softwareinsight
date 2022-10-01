@@ -1,6 +1,6 @@
 
 <div class="feedback-section-three dark-bg mt-110 lg-mt-70">
-    <img src="images/shape/shape_06.svg" alt="" class="shapes shape-one">
+    <img src="{{url('images/shape/shape_06.svg') }}" alt="" class="shapes shape-one">
     <div class="inner-content d-lg-flex align-items-center clearfix">
         <div class="text-wrapper">
             <div class="title-style-one white-vr">
@@ -15,55 +15,55 @@
                 
                 <div class="item">
                     <div class="block-wrapper">
-                        <img src="images/media/smartnodes.png" alt="" class="screen">
+                        <img src="{{url('images/media/smartnodes.png') }}" alt="" class="screen">
                         <div class="overlay-content d-flex align-items-end">
                             <a href="#" class="d-flex justify-content-between align-items-center">
                                 <span>Smart Nodes</span>
-                                <img src="images/icon/icon_28.svg" alt="">
+                                <img src="{{url('images/icon/icon_28.svg') }}" alt="">
                             </a>
                         </div> <!-- /.overlay-content -->
                     </div> <!-- /.block-wrapper -->
                 </div>
                 <div class="item">
                     <div class="block-wrapper">
-                        <img src="images/media/pizzabridge.jpg" alt="" class="screen">
+                        <img src="{{url('images/media/pizzabridge.jpg') }}" alt="" class="screen">
                         <div class="overlay-content d-flex align-items-end">
                             <a href="#" class="d-flex justify-content-between align-items-center">
                                 <span>Pizza Bridge</span>
-                                <img src="images/icon/icon_28.svg" alt="">
+                                <img src="{{url('images/icon/icon_28.svg') }}" alt="">
                             </a>
                         </div> <!-- /.overlay-content -->
                     </div> <!-- /.block-wrapper -->
                 </div>
                 <div class="item">
                     <div class="block-wrapper">
-                        <img src="images/media/skillancer.png" alt="" class="screen">
+                        <img src="{{url('images/media/skillancer.png') }}" alt="" class="screen">
                         <div class="overlay-content d-flex align-items-end">
                             <a href="#" class="d-flex justify-content-between align-items-center">
                                 <span>Skillancer</span>
-                                <img src="images/icon/icon_28.svg" alt="">
+                                <img src="{{url('images/icon/icon_28.svg') }}" alt="">
                             </a>
                         </div> <!-- /.overlay-content -->
                     </div> <!-- /.block-wrapper -->
                 </div>
                 <div class="item">
                     <div class="block-wrapper">
-                        <img src="images/media/currencyratehub.png" alt="" class="screen">
+                        <img src="{{url('images/media/currencyratehub.png') }}" alt="" class="screen">
                         <div class="overlay-content d-flex align-items-end">
                             <a href="#" class="d-flex justify-content-between align-items-center">
                                 <span>Currency Rate Hub</span>
-                                <img src="images/icon/icon_28.svg" alt="">
+                                <img src="{{url('images/icon/icon_28.svg') }}" alt="">
                             </a>
                         </div> <!-- /.overlay-content -->
                     </div> <!-- /.block-wrapper -->
                 </div>
                 <div class="item">
                     <div class="block-wrapper">
-                        <img src="images/media/pricedriller.png" alt="" class="screen">
+                        <img src="{{url('images/media/pricedriller.png') }}" alt="" class="screen">
                         <div class="overlay-content d-flex align-items-end">
                             <a href="#" class="d-flex justify-content-between align-items-center">
                                 <span>Price Driller</span>
-                                <img src="images/icon/icon_28.svg" alt="">
+                                <img src="{{url('images/icon/icon_28.svg') }}" alt="">
                             </a>
                         </div> <!-- /.overlay-content -->
                     </div> <!-- /.block-wrapper -->

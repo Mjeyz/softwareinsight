@@ -1,4 +1,4 @@
-<div class="vcamp-feature-section-seven style-two mt-225 lg-mt-120">
+<div class="tsi-feature-section-seven style-two mt-225 lg-mt-120">
 				<div class="container">
 					<div class="row">
 						<div class="col-xxl-7 col-xl-9 col-lg-7 col-md-9 m-auto aos-init" data-aos="fade-up">
@@ -37,6 +37,6 @@
 						</div>
 					</div>
 				</div> <!-- /.box-layout -->
-				<img src="images/shape/shape_39.svg" alt="" class="shapes shape-three">
-				<img src="images/shape/shape_37.svg" alt="" class="shapes shape-two">
+				<img src="{{url('images/shape/shape_39.svg') }}" alt="" class="shapes shape-three">
+				<img src="{{url('images/shape/shape_37.svg') }}" alt="" class="shapes shape-two">
 			</div>

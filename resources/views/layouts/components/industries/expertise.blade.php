@@ -55,7 +55,7 @@
                     </div>
                 </div> <!-- /.tab-content -->
             </div>
-            <div class="col-md-4"><img src="images/services/facing-client.jpg" alt=""></div>
+            <div class="col-md-4"><img src="{{url('images/services/facing-client.jpg') }}" alt=""></div>
         </div>
     </div> <!-- /.container -->
 </div>
