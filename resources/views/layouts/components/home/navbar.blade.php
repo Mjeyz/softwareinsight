@@ -29,35 +29,35 @@
 							                		<div class="col-lg-2">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Ideation & Strategy</h6></span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Product Strategy</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Digital Transformation</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Research and Development</span></a></li>
+							                					<li><a href="/services/ideation-and-strategy-services" class="dropdown-item"><span><h6 class="mega-menu-title">Ideation & Strategy</h6></span></a></li>
+							                					<li><a href="/services/product-strategy-consulting" class="dropdown-item"><span>Product Strategy</span></a></li>
+							                					<li><a href="/services/digital-transformation" class="dropdown-item"><span>Digital Transformation</span></a></li>
+							                					<li><a href="/services/research-development-company" class="dropdown-item"><span>Research and Development</span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Product Design</h6></span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>UI Design</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>UX Design</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Workshops</span></a></li>
+							                					<li><a href="/services/product-design-services" class="dropdown-item"><span><h6 class="mega-menu-title">Product Design</h6></span></a></li>
+							                					<li><a href="/services/ux-design" class="dropdown-item"><span>UI Design</span></a></li>
+							                					<li><a href="/services/ui-design" class="dropdown-item"><span>UX Design</span></a></li>
+							                					<li><a href="/services/workshops" class="dropdown-item"><span>Workshops</span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Web & Mobile</h6></span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Custom app</span></a></li>
+							                					<li><a href="/services/web-mobile-development" class="dropdown-item"><span><h6 class="mega-menu-title">Web & Mobile</h6></span></a></li>
+							                					<li><a href="/services/custom-app-development" class="dropdown-item"><span>Custom app</span></a></li>
 															</ul>
 							                			</div>
 							                		</div>
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Cloud Services</h6></span></a></li>
+							                					<li><a href="/services/cloud-computing-services" class="dropdown-item"><span><h6 class="mega-menu-title">Cloud Services</h6></span></a></li>
 															</ul>
 							                			</div>
 							                		</div>
@@ -80,15 +80,15 @@
 													<div class="col-lg-1">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Android</h6></span></a></li>
+							                					<li><a href="{{ url('/technologies/android-development') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Android</h6></span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Cross-Platform</h6></span></a></li>
-																<li><a href="#" class="dropdown-item"><span>React Native</a></li>
+							                					<li><a href="{{ url('/technologies/cross-platform-apps') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Cross-Platform</h6></span></a></li>
+																<li><a href="{{ url('/technologies/react-native-app-development') }}" class="dropdown-item"><span>React Native</a></li>
 																<li><a href="#" class="dropdown-item"><span>Flutter</a></li>
 																
 							                				</ul>
@@ -97,9 +97,9 @@
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Frontend</h6></span></a></li>
-																<li><a href="#" class="dropdown-item"><span>React</a></li>
-																<li><a href="#" class="dropdown-item"><span>Angular</a></li>
+							                					<li><a href="{{ url('/technologies/frontend-development') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Frontend</h6></span></a></li>
+																<li><a href="{{ url('/technologies/react-js-development') }}" class="dropdown-item"><span>React</a></li>
+																<li><a href="{{ url('/technologies/angular-development') }}" class="dropdown-item"><span>Angular</a></li>
 																<li><a href="#" class="dropdown-item"><span>Vue</a></li>
 
 							                				</ul>
@@ -108,29 +108,29 @@
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Backend</h6></span></a></li>
-																<li><a href="#" class="dropdown-item"><span>Node.js</a></li>
-																<li><a href="#" class="dropdown-item"><span>Python</a></li>
-																<li><a href="#" class="dropdown-item"><span>Php</a></li>
-																<li><a href="#" class="dropdown-item"><span>Java</a></li>
+							                					<li><a href="{{ url('/technologies/backend-development') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Backend</h6></span></a></li>
+																<li><a href="{{ url('/technologies/node-js-development') }}" class="dropdown-item"><span>Node.js</a></li>
+																<li><a href="{{ url('/technologies/golang-development') }}" class="dropdown-item"><span>Golang</a></li>
+																{{-- <li><a href="#" class="dropdown-item"><span>Php</a></li> --}}
+																<li><a href="{{ url('/technologies/java-development') }}" class="dropdown-item"><span>Java</a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Artificial Intelligence</h6></span></a></li>
-																<li><a href="#" class="dropdown-item"><span>Data Science</a></li>
-																<li><a href="#" class="dropdown-item"><span>Computer Vision</a></li>
-																<li><a href="#" class="dropdown-item"><span>Machine Learning</a></li>
-																<li><a href="#" class="dropdown-item"><span>Chatbots</a></li>
+							                					<li><a href="{{ url('/technologies/artificial-intelligence-development') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Artificial Intelligence</h6></span></a></li>
+																<li><a href="{{ url('/technologies/data-science') }}" class="dropdown-item"><span>Data Science</a></li>
+																<li><a href="{{ url('/technologies/computer-vision') }}" class="dropdown-item"><span>Computer Vision</a></li>
+																<li><a href="{{ url('/technologies/machine-learning') }}" class="dropdown-item"><span>Machine Learning</a></li>
+																<li><a href="{{ url('/technologies/voice-assistant-and-chatbots-development') }}" class="dropdown-item"><span>Chatbots</a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 													<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Blockchain</h6></span></a></li>
+							                					<li><a href="{{ url('/technologies/blockchain') }}" class="dropdown-item"><span><h6 class="mega-menu-title">Blockchain</h6></span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>

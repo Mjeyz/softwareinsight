@@ -38,6 +38,7 @@ class ServicesController extends Controller
             'service' => $service
         ]);
     }
+    
     public function PublicShow(Services $service){
         return view('single_service', [
             'service' => $service

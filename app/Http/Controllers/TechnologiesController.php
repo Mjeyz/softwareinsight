@@ -33,14 +33,15 @@ class TechnologiesController extends Controller
         return redirect('siteadmin/technologies');
     }
 
-    public function show(Technologies $tech){
+    public function show(Technologies $technology){
         return view('admin.technologies.show', [
-            'service' => $tech
+            'technology' => $technology
         ]);
     }
-    public function PublicShow(Technologies $tech){
-        return view('single_service', [
-            'service' => $tech
+    
+    public function PublicShow(Technologies $technology){
+        return view('single_technology', [
+            'technology' => $technology
         ]);
     }
 

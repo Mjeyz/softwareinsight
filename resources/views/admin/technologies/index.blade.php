@@ -12,7 +12,7 @@
         </div>            
         @forelse($technologies as $technology)
             <ol>
-                <li class="heading-list"><a href="{{url('../siteadmin/technologies/' . $technology->id)}}" class="posts-heading">{{ ucfirst($technology->banner_heading) }}</a></li>
+                <li class="heading-list"><a href="{{url('../siteadmin/technologies/' . $technology->slug)}}" class="posts-heading">{{ ucfirst($technology->slug) }}</a></li>
             </ol>
         @empty
             <p class="text-warning">No blog Posts available</p>

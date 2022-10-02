@@ -34,6 +34,7 @@ Route::post('/contact', [HomeContactUsController::class, 'contactPost'])->name('
 Route::post('newsletter/store', [NewsletterController::class, 'store']);
 
 Route::get('services/{service}', [ServicesController::class, 'PublicShow']);
+Route::get('technologies/{technology}', [TechnologiesController::class, 'PublicShow']);
 
 
 Route::middleware([CheckStatus::class])->group(function () {
