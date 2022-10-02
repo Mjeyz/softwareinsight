@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeContactUsController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\TechnologiesController;
 use App\Http\Middleware\CheckStatus;
@@ -35,6 +36,7 @@ Route::post('newsletter/store', [NewsletterController::class, 'store']);
 
 Route::get('services/{service}', [ServicesController::class, 'PublicShow']);
 Route::get('technologies/{technology}', [TechnologiesController::class, 'PublicShow']);
+Route::get('pages/{page}', [pagesController::class, 'PublicShow']);
 
 
 Route::middleware([CheckStatus::class])->group(function () {
@@ -55,6 +57,15 @@ Route::middleware([CheckStatus::class])->group(function () {
     Route::post('siteadmin/technologies/create/new', [TechnologiesController::class, 'store']); // method to post a new technology
     Route::get('siteadmin/technologies/{technology}/edit', [TechnologiesController::class, 'edit']); // method to show edit view to user
     Route::post('siteadmin/technologies/{technology}/edit', [TechnologiesController::class, 'update']);  // method to post edit data from view form
+    
+    // Pages section
+    Route::get('siteadmin/pages', [PagesController::class, 'index']); // method to view all pages at once
+    Route::get('siteadmin/pages/{page}', [PagesController::class, 'show']); // method to show one technology
+    Route::delete('siteadmin/pages/{page}', [PagesController::class, 'destroy']); // method to delete a technology
+    Route::get('siteadmin/pages/create/new', [PagesController::class, 'create']); // method to call a view of create form
+    Route::post('siteadmin/pages/create/new', [PagesController::class, 'store']); // method to post a new technology
+    Route::get('siteadmin/pages/{page}/edit', [PagesController::class, 'edit']); // method to show edit view to user
+    Route::post('siteadmin/pages/{page}/edit', [PagesController::class, 'update']);  // method to post edit data from view form
 });
 
 // Authentication section
