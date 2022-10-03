@@ -58,7 +58,8 @@
 
 			
             @include('layouts.components.counter')
-
+            
+            @include('layouts.components.claim_excel')
 
 
 			<!-- 
@@ -66,7 +67,7 @@
 				Vcamp Feature Section Five
 			============================================== 
 			-->
-			<div class="tsi-feature-section-five mt-100 lg-mt-80">
+			{{-- <div class="tsi-feature-section-five mt-100 lg-mt-80">
 				<div class="feature_slider_one">
 					<div class="item">
 						<div class="card-style-five">
@@ -114,7 +115,7 @@
 						</div> <!-- /.card-style-five -->
 					</div> <!-- /.item -->
 				</div>
-			</div> <!-- /.tsi-feature-section-five -->
+			</div> <!-- /.tsi-feature-section-five --> --}}
 
 
 
@@ -133,25 +134,25 @@
 						</div>
 
 						<div class="col-xl-6 col-lg-7 ms-auto">
-							<p class="info-text">Over <span>32K+</span> software businesses growing with vCamp.</p>
+							<p class="info-text">At The Software Insight, we always put <span>client</span> first</p>
 							<div class="row">
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-18.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/smartnodes.png" alt="" class="tran3s"></a></div>
 								</div>
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-19.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/currencyratehub.png" alt="" class="tran3s"></a></div>
 								</div>
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-20.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/skillancer.png" alt="" class="tran3s"></a></div>
 								</div>
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-21.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/pizzabridge.png" alt="" class="tran3s"></a></div>
 								</div>
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-22.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/themainstream.png" alt="" class="tran3s" height="100px"></a></div>
 								</div>
 								<div class="col-sm-4 col-6">
-									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/logo-23.png" alt="" class="tran3s"></a></div>
+									<div class="logo d-flex align-items-center"><a href="#"><img src="images/logo/tulua.png" alt="" class="tran3s" height="74px"></a></div>
 								</div>
 							</div>
 						</div>
@@ -161,64 +162,7 @@
 
 
 
-			<!--
-			=====================================================
-				Feedback Section Nine
-			=====================================================
-			-->
-			<div class="feedback-section-nine box-layout mt-200 lg-mt-120">
-				<div class="bg-wrapper">
-					<div class="container">
-						<div class="row align-items-center justify-content-between">
-							<div class="col-xl-7 col-lg-6 col-md-8 m-auto">
-								<div class="title-style-one text-center">
-									<h2 class="title">What’s our <span>client</span> say about us.</h2>
-								</div>
-							</div>
-						</div>
-					</div> <!-- /.container -->
-
-					<div class="feedback_slider_seven">
-						<div class="item">
-							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
-								<blockquote>
-									Certainly from my perspective been a great success with WP giving us that enterprises level assured quality.
-								</blockquote>
-								<div class="name">Martin Jonas <span>USA</span></div>
-							</div> <!-- /.testimonial-block-one -->
-						</div>
-						<div class="item">
-							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
-								<blockquote>
-									Certainly from my perspective been a great success with WP giving us that enterprises level assured quality.
-								</blockquote>
-								<div class="name">Martin Jonas <span>USA</span></div>
-							</div> <!-- /.testimonial-block-one -->
-						</div>
-						<div class="item">
-							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
-								<blockquote>
-									Certainly from my perspective been a great success with WP giving us that enterprises level assured quality.
-								</blockquote>
-								<div class="name">Martin Jonas <span>USA</span></div>
-							</div> <!-- /.testimonial-block-one -->
-						</div>
-						<div class="item">
-							<div class="testimonial-block-one">
-								<div class="icon d-flex align-items-center justify-content-center"><img src="images/icon/icon_15.svg" alt=""></div>
-								<blockquote>
-									Certainly from my perspective been a great success with WP giving us that enterprises level assured quality.
-								</blockquote>
-								<div class="name">Martin Jonas <span>USA</span></div>
-							</div> <!-- /.testimonial-block-one -->
-						</div>
-					</div> <!-- /.feedback_slider_seven -->
-				</div> <!-- /.bg-wrapper -->
-			</div> <!-- /.feedback-section-nine box-layout -->
-
+			@include('layouts.components.feedback2')
 
 			<!--
 			=====================================================
