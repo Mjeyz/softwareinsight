@@ -54,14 +54,14 @@
 							</div> <!-- /.newsletter -->
 						</div>
 					</div>
-					<div class="row mt-50"  style="justify-content: right">
+					{{-- <div class="row mt-50"  style="justify-content: right">
 						<div class="col-md-5 row" >
 							<div class="col-md-3"><img src="images/badges/11aa7a8a9096a808db5e468255016f70.png" alt=""></div>
 							<div class="col-md-3"><img src="https://assets.goodfirms.co/directory/top-software-development-companies_1503990707.png" data-lazy-src="https://www.softwareworld.co/wp-content/uploads/2020/03/Top_Rated_software-2021.png" alt=""></div>
 							<div class="col-md-3"><img src="images/badges/Badge-Top-Software-Development-Companies-2022.png" data-lazy-src="https://www.softwareworld.co/wp-content/uploads/2020/03/Top_Rated_software-2021.png" alt=""></div>
 							<div class="col-md-3"><img src="https://www.softwareworld.co/wp-content/uploads/2020/03/Top_Rated_software-2021.png" data-lazy-src="https://www.softwareworld.co/wp-content/uploads/2020/03/Top_Rated_software-2021.png" alt=""></div>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 				<div class="container">
 					<div class="bottom-footer">
