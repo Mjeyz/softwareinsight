@@ -77,6 +77,9 @@
 									<li><a href="https://web.facebook.com/thesoftwareinsight/"><i class="fab fa-facebook-f"></i></a></li>
 									<li><a href="https://www.instagram.com/tsoftwarei/"><i class="fab fa-instagram"></i></a></li>
 									<li><a href="https://twitter.com/tsoftwarei"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://github.com/thesoftwareinsight"><i class="fab fa-github"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/thesoftwareinsight"><i class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://thesoftwareinsight.medium.com/"><i class="fab fa-medium"></i></a></li>
 								</ul>
 							</div>
 							<div class="col-lg-5 order-lg-2 mb-15">
