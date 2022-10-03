@@ -146,46 +146,46 @@
 							                		<div class="col-lg-2">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><h6 class="mega-menu-title">All Industries</h6></a></li>
+							                					<li><a href="{{ url('pages/services-for-industries') }}" class="dropdown-item"><h6 class="mega-menu-title">All Industries</h6></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 													<div class="col-lg-2">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">eCommerce</h6></span></a></li>
+							                					<li><a href="{{url('/pages/ecommerce-software-solutions')}}" class="dropdown-item"><span><h6 class="mega-menu-title">eCommerce</h6></span></a></li>
 															</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Education</h6></span></a></li>
+							                					<li><a href="{{url('/pages/education-app-development')}}" class="dropdown-item"><span><h6 class="mega-menu-title">Education</h6></span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Fintech</h6></span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Banking</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Insurance</span></a></li>
+							                					<li><a href="{{url('/pages/fintech-app-development')}}" class="dropdown-item"><span><h6 class="mega-menu-title">Fintech</h6></span></a></li>
+							                					<li><a href="{{url('/pages/banking-app-development')}}" class="dropdown-item"><span>Banking</span></a></li>
+							                					<li><a href="{{url('/pages/insurance-software-development')}}" class="dropdown-item"><span>Insurance</span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Entertainment</h6></span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Music</span></a></li>
-							                					<li><a href="#" class="dropdown-item"><span>Travel</span></a></li>
+							                					<li><a href="" class="dropdown-item"><span><h6 class="mega-menu-title">Entertainment</h6></span></a></li>
+							                					<li><a href="{{url('/pages/music-app-development')}}" class="dropdown-item"><span>Music</span></a></li>
+							                					<li><a href="{{ url('/pages/travel-app-development')}}" class="dropdown-item"><span>Travel</span></a></li>
 															</ul>
 							                			</div>
 							                		</div>
 							                		<div class="col">
 							                			<div class="menu-column">
 							                				<ul class="style-none mega-dropdown-list">
-							                					<li><a href="#" class="dropdown-item"><span><h6 class="mega-menu-title">Food Delivery</h6></span></a></li>
+							                					<li><a href="{{ url('/pages/food-delivery-app-development')}}" class="dropdown-item"><span><h6 class="mega-menu-title">Food Delivery</h6></span></a></li>
 							                				</ul>
 							                			</div>
 							                		</div>
@@ -194,7 +194,7 @@
 						                </ul>
 						            </li>
 						            <li class="nav-item dropdown mega-dropdown-md">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
+							        	<a class="nav-link dropdown-toggle" href="{{ url('/portfolio') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
 						            </li>
 						            <li class="nav-item dropdown">
 							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Company <i class="arrow"></i></a>

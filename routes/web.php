@@ -31,6 +31,13 @@ Route::get('/contact', function (){
     return view('contact');
 });
 
+Route::get('/portfolio', function (){
+    return view('portfolio');
+});
+Route::get('about-us', function (){
+    return view('aboutus');
+});
+
 Route::post('/contact', [HomeContactUsController::class, 'contactPost'])->name('contact');
 Route::post('newsletter/store', [NewsletterController::class, 'store']);
 

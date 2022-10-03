@@ -125,33 +125,6 @@
                 @include('layouts.components.proude_projects')
                     @include('layouts.components.home.contact')
                 @include('layouts.components.feedback')
-
-                <div class="address-section-two">
-                    <div class="container">
-                        <div class="inner-content modi-foot-home">
-                            <div class="row g-0">
-                                <div class="col-md-6">
-                                    <div class="address-block-two d-flex border-right">
-                                        <img src="{{url('images/icon/icon_34.svg') }}" alt="" class="icon">
-                                        <div class="text-meta">
-                                            <h4 class="title">Our Address</h4>
-                                            <p>1012 Pebda Parkway, Mirpur 2 <br>Dhaka, Bangladesh</p>
-                                        </div> <!-- /.text-meta -->
-                                    </div> <!-- /.address-block-two -->
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="address-block-two d-flex">
-                                        <img src="{{url('images/icon/icon_35.svg') }}" alt="" class="icon">
-                                        <div class="text-meta">
-                                            <h4 class="title">Contact Info</h4>
-                                            <p>Open a chat or give us call at <br><a href="#">310.841.5500</a></p>
-                                        </div> <!-- /.text-meta -->
-                                    </div> <!-- /.address-block-two -->
-                                </div>
-                            </div>
-                        </div> <!-- /.inner-content -->
-                    </div>
-                </div> <!-- /.address-section-two -->
             </div>
 			@include('layouts.components.footer');
 
