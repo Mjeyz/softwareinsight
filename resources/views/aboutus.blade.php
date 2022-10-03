@@ -169,7 +169,7 @@
 				Blog Section One
 			=====================================================
 			-->
-			<div class="blog-section-one mt-200 lg-mt-120">
+			{{-- <div class="blog-section-one mt-200 lg-mt-120">
 				<div class="container">
 					<div class="row">
 						<div class="col-xxl-11 m-auto">
@@ -224,7 +224,7 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- /.blog-section-one -->
+			</div> <!-- /.blog-section-one --> --}}
 
             
 
