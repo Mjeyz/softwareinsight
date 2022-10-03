@@ -194,12 +194,12 @@
 						                </ul>
 						            </li>
 						            <li class="nav-item dropdown mega-dropdown-md">
-							        	<a class="nav-link dropdown-toggle" href="{{ url('/portfolio') }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
+							        	<a class="nav-link dropdown-toggle" href="{{ url('/portfolio') }}" role="button" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
 						            </li>
 						            <li class="nav-item dropdown">
 							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Company <i class="arrow"></i></a>
 						                <ul class="dropdown-menu">
-							                <li><a href="#" class="dropdown-item"><span>About us</span></a></li>
+							                <li><a href="about-us" class="dropdown-item"><span>About us</span></a></li>
 							                <li><a href="#" class="dropdown-item"><span>Career</span></a></li>
 						                </ul>
 						            </li>

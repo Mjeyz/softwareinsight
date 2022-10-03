@@ -72,41 +72,41 @@
 									<h2 class="title">We Provide <span>Awesome</span> Services To You</h2>
 								</div>
 								<p class="meta-info-text text-lg">We helping client  to create  with our talented expert.</p>
-								<a href="serviceV1.html" class="theme-btn-seven ripple-btn">Discover More</a>
+								<a href="/services" class="theme-btn-seven ripple-btn">Discover More</a>
 							</div>
 
 							<div class="col-lg-7 ms-auto" data-aos="fade-left">
 								<div class="row">
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/product-design.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/product_design.png') }}" alt="" class="tran3s" style="width: 40px; opacity: 0.85;"></div>
 											<h4 class="title">Product Design</h4>
 											<p>We create delightful UX for web, mobile, and desktop products that are simple to use and easy to navigate for your users.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
+											<a href="/services/product-design-services" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/frontend.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/web_dev.png') }}" alt="" class="tran3s" style="width: 40px; opacity: 0.85;"></div>
 											<h4 class="title">Web Development</h4>
 											<p>We create beautiful, fast and secure web applications tailored exclusively for your business goals.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
+											<a href="/services/web-mobile-development" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/web-mobile.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/mobile_apps_development.png') }}" alt="" class="tran3s" style="width: 40px; opacity: 0.85;"></div>
 											<h4 class="title">Mobile Apps Development</h4>
 											<p>We provide unique mobile applications with excellent UX that are well-designed, optimized, and support iOS and Android.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
+											<a href="/services/custom-app-development" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 									<div class="col-sm-6">
 										<div class="card-style-one">
-											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icons/strategy.svg') }}" alt="" class="tran3s" style="width: 40px;"></div>
+											<div class="icon d-flex align-items-center justify-content-center"><img src="{{url('images/icon/strategy.png') }}" alt="" class="tran3s" style="width: 40px; opacity: 0.85;"></div>
 											<h4 class="title">Strategy & Research</h4>
 											<p>we provide the latest digital transformation solutions and end-to-end business intelligence services to minimize risks and leverage opportunities ahead.</p>
-											<a href="serviceV1.html" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
+											<a href="/services/ideation-and-strategy-services" class="arrow-icon"><img src="{{url('images/icon/icon_08.svg') }}" alt="" class="tran3s"></a>
 										</div> <!-- /.card-style-one -->
 									</div>
 								</div>
@@ -135,7 +135,7 @@
 									<h2 class="title">How we claim to excel for your <span>business</span>?</h2>
 								</div>
 								<p class="meta-info-text text-lg">We are the solution which can allow you to reach your goals in an effective manner, within the shortest span of time and at the lowest possible cost.</p>
-								<a href="about-usV2.html" class="theme-btn-three">Learn more <i class="fas fa-angle-right"></i></a>
+								<a href="/about-us" class="theme-btn-three">Learn more <i class="fas fa-angle-right"></i></a>
 							</div> <!-- /.text-wrapper -->
 						</div>
 						<div class="col-lg-6 ms-auto">
@@ -176,15 +176,14 @@
 
 
 
-			@include('layout.components.feedback2')
-
+			@include('layouts.components.feedback2')
 			@include('layouts.components.home.contact')
 			<!--
 			=====================================================
 				Address Section Two
 			=====================================================
 			-->
-			<div class="address-section-two">
+			{{-- <div class="address-section-two">
 				<div class="container">
 					<div class="inner-content modi-foot-home">
 						<div class="row g-0">
@@ -209,7 +208,7 @@
 						</div>
 					</div> <!-- /.inner-content -->
 				</div>
-			</div> <!-- /.address-section-two -->
+			</div> <!-- /.address-section-two --> --}}
 			
 
 
